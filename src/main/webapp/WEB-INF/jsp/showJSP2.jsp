@@ -18,17 +18,6 @@
 <table border="solid 1px red;" cellspacing="0px" cellpadding="5px" width="600px" >
     <thead>
     <tr style="text-align: left;">
-        <form action="add" method="post" enctype="application/x-www-form-urlencoded">
-            <td colspan="3">
-                <input type="submit" value="添加"/>
-            </td>
-        </form>
-
-        <form action="" method="post" enctype="application/x-www-form-urlencoded">
-            <td colspan="3">
-                <input  type="submit" value="添加"/>
-            </td>
-        </form>
     </tr>
     <tr style="text-align: center;">
         <td><input type="checkbox" id="checkAll"/></td>

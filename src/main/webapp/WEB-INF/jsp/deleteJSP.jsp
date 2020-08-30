@@ -19,8 +19,8 @@
         <thead>
         <tr style="text-align: center;">
             <td><input type="checkbox" id="checkAll"/></td>
-            <th>部门ID</th>
-            <th>商品操作</th>
+            <th>ID</th>
+            <th>操作</th>
         </tr>
         </thead>
         <tbody>

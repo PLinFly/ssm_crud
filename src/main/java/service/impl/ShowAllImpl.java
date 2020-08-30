@@ -9,7 +9,7 @@ import service.ShowAll;
 import java.util.List;
 
 @Service
-public class ShoeAllImpl implements ShowAll{
+public class ShowAllImpl implements ShowAll{
     @Autowired
     ShowMapper showMapper;
 
