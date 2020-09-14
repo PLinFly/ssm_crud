@@ -16,11 +16,10 @@
 <body>
 <div style="width:500px;margin:0px auto;text-align:center">
     <div style="text-align:center;margin-top:40px">
-        <form action="${pageContext.request.contextPath}/add" method="post" enctype="application/x-www-form-urlencoded">
+        <form action="${pageContext.request.contextPath}/mvc/list" method="post" enctype="application/x-www-form-urlencoded">
             <table border="solid 1px red;" cellspacing="0px" cellpadding="5px" width="600px" >
                 <thead>
                 <tr style="text-align: center;">
-                    <td><input type="checkbox" id="checkAll"/></td>
                     <th>学号</th>
                     <th>姓名</th>
                     <th>性别</th>
@@ -29,7 +28,6 @@
                 </thead>
                 <tbody>
                 <tr>
-                    <td><input type="checkbox" class="checkSimple"/></td>
                     <td><input type="text" name="id" id="id"></td>
                     <td><input type="text" name="name" id="name"></td>
                     <td><input type="text" name="gender" id="gender"></td>

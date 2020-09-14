@@ -13,5 +13,5 @@ public interface ShowAll {
 
     String updateStu(Student stu);
 
-    String getStu(int id);
+    Student getStu(int id);
 }

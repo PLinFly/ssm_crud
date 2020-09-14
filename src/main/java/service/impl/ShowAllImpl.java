@@ -44,13 +44,9 @@ public class ShowAllImpl implements ShowAll{
         return message;
     }
 
-    public String getStu(int id) {
+    public Student getStu(int id) {
         System.out.println("This is Get Student");
-        int i = showMapper.get(id);
-        String message = "";
-        if(i>0){ message = "获取成功"; }
-        else{ message = "获取失败"; }
-        return message;
+        return showMapper.get(id);
     }
 
     public ShowMapper getShowMapper(){

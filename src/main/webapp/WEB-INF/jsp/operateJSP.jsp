@@ -34,8 +34,8 @@
                     <th>${ p.id }</th>
                     <th>${ p.name }</th>
                     <th>${ p.gender }</th>
-                    <td><a href="update">修改</a></td>
-                    <td><a href="delete?id=${p.id}">删除</a></td>
+                    <td><a href="list/${p.id}">修改</a></td>
+                    <td><a href="delete/${p.id}">删除</a></td>
                 </tr>
             </c:forEach>
             </tbody>
