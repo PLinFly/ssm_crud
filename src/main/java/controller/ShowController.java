@@ -58,4 +58,5 @@ public class ShowController {
         showAll.updateStu(stu);
         return "redirect:/mvc/list";
     }
+
 }
