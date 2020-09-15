@@ -17,7 +17,7 @@ import java.util.List;
 
 @Controller
 @RequestMapping("/mvc")
-public class ThisController {
+public class ShowController {
 
     @Autowired
     ShowAll showAll;
